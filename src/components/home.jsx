@@ -26,7 +26,43 @@ function Home(params) {
                 </div>
             </div>
 
+
             {/* Content */}
+            {/* second section */}
+            <div className="hero bg-base-200 min-h-screen">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src="/remote.svg" className="max-w-sm rounded-lg  lg:mr-8" />
+
+                    <div className="max-w-lg"> 
+                        <h1 className="text-5xl font-bold"><span className="text-primary">Discover</span> Jobs That Match Your Ambition</h1>
+                        <p className="py-6">
+                            Find thousands of opportunities that match your skills and career aspirations. 
+                            Whether you're looking for remote work, internships, or full-time roles, our platform 
+                            connects you with employers ready to hire. Start your journey today and take the next step 
+                            towards building your future!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* third section */}
+            <div className="hero bg-base-200 min-h-screen">
+                <div className="hero-content flex-col lg:flex-row">
+                    <div className="max-w-lg"> 
+                        <h1 className="text-5xl font-bold">Collaborate to Elevate Your <span className="text-primary">Career</span></h1>
+                        <p className="py-6">
+                            Kickstart your professional journey by working alongside talented individuals from various fields. 
+                            Our platform not only helps you find your ideal job but also fosters collaboration and networking 
+                            with professionals who share your passion. Build meaningful connections, collaborate on exciting projects, 
+                            and take your career to the next level, together!
+                        </p>
+                    </div>
+
+                    <img src="/work.svg" className="max-w-sm rounded-lg  lg:mr-8" />
+                </div>
+            </div>
+
 
             <Footer/>
         </div>

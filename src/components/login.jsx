@@ -19,16 +19,16 @@ function Login() {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
-      <div className="flex flex-col justify-left text-center lg:text-left">
-  <h1 className="text-5xl font-bold">Login now!</h1>
-  <p className="py-6">
-    Unlock Your Future with Workfolio! Log in now for personalized job listings, career tools, and networking that brings your dream job closer than ever.
-  </p>
-  <div className='flex justify-center lg:justify-start items-center gap-1'>
-    <p className='py-0'>Don't have an account?</p>
-    <Link to="/register" className="link link-primary">Register here!</Link>
-  </div>
-</div>
+        <div className="flex flex-col justify-left text-center lg:text-left">
+          <h1 className="text-5xl font-bold">Login now!</h1>
+          <p className="py-6">
+            Unlock Your Future with Workfolio! Log in now for personalized job listings, career tools, and networking that brings your dream job closer than ever.
+          </p>
+          <div className='flex justify-center lg:justify-start items-center gap-1'>
+            <p className='py-0'>Don't have an account?</p>
+            <Link to="/register" className="link link-primary">Register here!</Link>
+          </div>
+        </div>
 
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form onSubmit={handleSubmit} className="card-body">
@@ -55,36 +55,6 @@ function Login() {
       </div>
     </div>
 
-    // <div className="form-container">
-    //   <h2>Login</h2>
-    //   <form onSubmit={handleSubmit}>
-    //     <div className="form-group">
-    //       <label>Email:</label>
-    //       <input
-    //         type="email"
-    //         name="email"
-    //         value={loginData.email}
-    //         onChange={handleChange}
-    //         required
-    //       />
-    //     </div>
-
-    //     <div className="form-group">
-    //       <label>Password:</label>
-    //       <input
-    //         type="password"
-    //         name="password"
-    //         value={loginData.password}
-    //         onChange={handleChange}
-    //         required
-    //       />
-    //     </div>
-
-    //     <div>
-    //       <button type="submit">Login</button>
-    //     </div>
-    //   </form>
-    // </div>
   );
 }
 
