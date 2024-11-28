@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Main Container Styling */
+.jobs-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    /* background-image: url('../images/white-background.jpg'); */
+}
+
+/* Title Styling */
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fdfdfd;
+}
+
+/* Job Cards Container (Grid Layout) */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Job Cards */
+.job-card {
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Job Cards */
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Job Card Title */
+.job-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Job Card Paragraph Styling */
+.job-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Strong Text in Job Cards */
+.job-card strong {
+    color: #333;
+}
+
+/* Responsive Design: Single Column for Smaller Screens */
+@media (max-width: 600px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.apply-button {
+    margin-top: auto;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+    
+}

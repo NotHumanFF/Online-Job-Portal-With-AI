@@ -1,0 +1,291 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: darkgrey;
+}
+.nav-links li {
+  margin-left: 20px;
+}
+
+form {
+  margin-top: 1rem;
+}
+form div {
+  margin-bottom: 0.5rem;
+}
+button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+form div {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* .appContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('./images/white-background.jpg');
+} */
+
+/* .homeContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-image: url('./images/homeBackground.jpg');
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .homeContainer h1, */
+/* .homeContainer p{
+  color: white;
+} */
+
+/* Home Page Specific Styling */
+/* .homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url('./images/homeBackground.jpg');
+  color: white;
+  text-align: center;
+} */
+
+/* Hero Section */
+/* .heroSection h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+} */
+/* 
+.heroSection p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+} */
+
+.ctaButton {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: #0056b3;
+}
+/* Features Section */
+.featuresSection {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+.featuresSection h2 {
+  margin: 1.5rem;
+}
+
+.featuresList {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.feature h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Testimonials Section */
+.testimonialsSection {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.testimonialsSection h2 {
+  margin-bottom: 1.5rem;
+}
+
+.testimonialsList {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Footer Section */
+.footerSection {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  /* background-image: url('./images/homeBackground.jpg'); */
+}
+
+/* Form styling */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  /* margin-bottom: 0.5rem; */
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.formHeading {
+  color: white;
+}
+
+.herosection {
+  height: 100vh;
+  background-color: black;
+}
