@@ -84,21 +84,21 @@ And all set.
 ## Screenshots of Application
 
 ### Home Page
-<img src="./demo/Home1.png" alt="Home Page" width="400px">  <img src="./demo/Home2.png" alt="Home Page" width="400px">
+<img src="./demo/Home1.png" alt="Home Page" width="400px">            <img src="./demo/Home2.png" alt="Home Page" width="400px">
 
 
 ### User's Page
 
-<img src="./demo/Jobs.png" alt="Jobs Page" width="400px">  <img src="./demo/profile.png" alt="Profile Page" width="400px">
+<img src="./demo/Jobs.png" alt="Jobs Page" width="400px">          <img src="./demo/profile.png" alt="Profile Page" width="400px">
 
 ### Login & Registration Page
 
-<img src="./demo/Login.png" alt="Login Page" width="400px">  <img src="./demo/Registration.png" alt="Registration Page" width="400px">
+<img src="./demo/Login.png" alt="Login Page" width="400px">         <img src="./demo/Register.png" alt="Registration Page" width="400px">
 
 
 ### Admin Dashboard Pages
 
-<img src="./demo/Applications.png" alt="Applications Page" width="400px">  <img src="./demo/Users.png" alt="user Page" width="400px">
+<img src="./demo/Applications.png" alt="Applications Page" width="400px">            <img src="./demo/Users.png" alt="user Page" width="400px">
 <img src="./demo/AddJob.png" alt="Create Page" width="400px">
 
 
